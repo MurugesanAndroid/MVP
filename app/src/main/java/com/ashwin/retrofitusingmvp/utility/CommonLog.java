@@ -9,6 +9,7 @@ public class CommonLog {
     public static final int LOG_TYPE_WARN = 4;
     public static final int LOG_TYPE_ERROR = 5;
 
+
     public static void createLog(int logType, String tagName, String message) {
         switch (logType) {
             case LOG_TYPE_VERBOSE:
